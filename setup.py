@@ -17,7 +17,7 @@ setup(
     license=license_file,
     packages=['nic_parser'],
     install_requires=['', ],
-    download_url='',
+    download_url='https://github.com/chehanr/nic_parser/archive/0.1.0.tar.gz',
     keywords=['nic', 'parser', 'sri-lanka'],
     classifiers=[],
 )

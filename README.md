@@ -13,7 +13,7 @@ A python library to parse Sri Lankan national identity card numbers.
 
 Or
 
-    TBA
+    pip install nic-parser
 
 ## Usage
 
