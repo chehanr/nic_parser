@@ -17,12 +17,12 @@ Or
 
 ## Usage
 
-    >>> from nic_parser import NICParser
-    >>> nic = NICParser('952903022V')
+    >>> from nic_parser.parser import Parser
+    >>> nic = Parser('952903022V')
     >>> nic.birth_date
     datetime.datetime(1995, 10, 16, 0, 0)
     >>> nic.gender
-    'M'
+    <Gender.MALE: 0>
     >>> nic.serial_number
     302
     >>> nic.check_digit
@@ -30,10 +30,10 @@ Or
     >>> nic.special_letter
     'V'
     >>> nic.id_type
-    'Old'
+    <IdType.OLD: 0>
     >>>
 
 ## TODO
 
-- Add NIC number generation.
+- ~Add NIC number generation.~
 - ...
